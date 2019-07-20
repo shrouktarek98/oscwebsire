@@ -1,0 +1,93 @@
+.recuritmentForm .images img {
+    width: 100%;
+}
+
+.recuritmentForm .images .col {
+    padding: 0px;
+}
+
+.recuritmentForm h3 {
+    color: #e63600;
+    text-align: center;
+    margin: 20px 0px 40px;
+}
+
+.form label {
+    color: #000099;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form input,
+.form select {
+    border: none;
+    border-bottom: 1.5px solid rgb(134, 134, 134);
+    color: #e63600;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.form select {
+    margin-top: 4px;
+    margin-bottom: 35px;
+}
+
+.form .first-name {
+    width: 40%;
+}
+
+.form .last-name,
+.form .year {
+    width: 60%;
+}
+
+.form .faculty {
+    width: 70%;
+}
+
+.form .first-committe,
+.form .second-committe {
+    width: 60%;
+}
+
+.form .email {
+    width: 100%;
+}
+
+.form .batrik {
+    text-align: center;
+}
+
+.form .batrik img {
+    width: 45%;
+    margin-top: 30px;
+    height: 80%;
+}
+
+.form .day {
+    width: 40%;
+}
+
+.form .time {
+    width: 60%;
+}
+
+.form .submit {
+    text-align: center;
+}
+
+.form .submit button {
+    padding: 4px 35px;
+    color: #e63600;
+    background: #fff;
+    border: 1.5px solid #e63600;
+    border-radius: 20px;
+    margin: 20px auto 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form .submit button:hover {
+    color: #fff;
+    background: #e63600;
+}

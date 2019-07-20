@@ -1,0 +1,153 @@
+body {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#banner-img {
+    position: sticky;
+    left: 5%;
+    width: 90%;
+}
+
+#header-bWorkshop {
+    text-align: center;
+    font-size: 39pt;
+    font-family: Permanent Marker Regular;
+    color: #383838;
+}
+
+#inside-diagram {
+    position: relative;
+    font-family: Raleway Medium;
+    font-style: italic;
+    font-size: 260%;
+    color: #ff5722;
+    margin: 0px auto;
+    top: 35%;
+    width: 40%;
+}
+
+@media(max-width:1200px) {
+    #inside-diagram {
+        font-size: 150%;
+        top: 40%;
+    }
+}
+
+p {
+    font-size: 150%;
+}
+
+#about {
+    background: #e6e6e6;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#page-content {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#contentList {
+    width: 50%;
+    padding-top: 2%;
+}
+
+figure {
+    animation: wobble 3s ease-in-out infinite;
+    transform-origin: center center;
+    transform-style: preserve-3d;
+    text-align: center;
+    padding-bottom: 15%;
+    font-family: Permanent Marker Regular;
+}
+
+@keyframes wobble {
+    0%,
+    100% {
+        transform: rotate3d(1, 1, 0, 20deg);
+    }
+    25% {
+        transform: rotate3d(0, 1, 0, 20deg);
+    }
+    50% {
+        transform: rotate3d(0, -1, 0, 20deg);
+    }
+    75% {
+        transform: rotate3d(0, -1, 0, 20deg);
+    }
+}
+
+.header3d {
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+.header3d:nth-child(2) {
+    transform: translateZ(2px);
+}
+
+.header3d:nth-child(3) {
+    transform: translateZ(4px);
+}
+
+.header3d:nth-child(4) {
+    transform: translateZ(6px);
+}
+
+.header3d:nth-child(5) {
+    transform: translateZ(8px);
+}
+
+.header3d:nth-child(6) {
+    transform: translateZ(10px);
+}
+
+.header3d:nth-child(7) {
+    transform: translateZ(12px);
+}
+
+.header3d:nth-child(8) {
+    transform: translateZ(14px);
+}
+
+.header3d:nth-child(9) {
+    transform: translateZ(16px);
+}
+
+.header3d:nth-child(10) {
+    transform: translateZ(18px);
+}
+
+.header3d:nth-child(11) {
+    transform: translateZ(20px);
+}
+
+.header3d:nth-child(12) {
+    transform: translateZ(22px);
+}
+
+.header3d:nth-child(13) {
+    transform: translateZ(24px);
+}
+
+.header3d:nth-child(14) {
+    transform: translateZ(26px);
+}
+
+.cover {
+    background-image: url(/images/blenderAndLaravelWorkshop/diagram.png);
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    margin-bottom: 50px;
+    height: 600px;
+}

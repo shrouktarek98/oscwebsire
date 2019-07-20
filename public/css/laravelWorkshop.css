@@ -1,0 +1,79 @@
+body{
+margin-left: 0%;
+margin-right: 0%;
+margin-top: 0%;
+margin-bottom: 0%;
+}
+p{
+    font-size: 150%;
+}
+#laravelLogo{
+  width: 100%;
+  height: 650px;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+#giphy{
+  width: 100%;
+  height: 650px;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+#wList{
+  width: 100%;
+  height: 650px;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+#gallary{
+  width: 100%;
+  height: 650px;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+#header-lWorkshop{
+    text-align: center;
+    font-size: 450%;
+    padding-bottom: 5%;
+}
+#loveCode{
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#about{
+    background: #e6e6e6;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-left: 0%;
+    padding-right: 0%; 
+}
+#framework{
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#design{
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#wellDoc{
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#phpFramework{
+    height: 100%;
+    width: 100%;
+    padding-top: 2%;
+}
+#mvc-img{
+    height: 100%;
+    width: 100%;
+    padding-top: 2%;
+}
+.parag{
+    padding-top: 8%;
+}

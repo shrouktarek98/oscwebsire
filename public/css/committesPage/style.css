@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url('../fonts/RALEWAY-EXTRABOLD.TTF');
+}
+
+@font-face {
+    font-family: workshopfont;
+    src: url('../fonts/RALEWAY-SEMIBOLD.TTF');
+}
+
+.web-comm {
+    background-color: #e6e6e6;
+}
+
+.web-comm .web-cont {
+    width: 80%;
+    padding: 40px;
+}
+
+.web-comm .web-cont h4 {
+    font-family: myFont;
+    font-size: 25px;
+    color: #444;
+}
+
+.web-comm .web-cont p {
+    padding: 25px 0;
+    color: #444;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+
+/* =================================================== */
+
+.workshop .imgs {
+    float: left;
+    position: relative;
+}
+
+.workshop .imgs>img:nth-child(1) {
+    width: 45%;
+    position: relative;
+    z-index: 5;
+    margin-left: 20px;
+}
+
+.workshop .imgs>img:nth-child(2) {
+    width: 40%;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+    margin-left: -12px;
+}
+
+.workshop .imgs>img:nth-child(3) {
+    width: 45%;
+    display: block;
+    margin-left: 80px;
+    margin-top: -60px;
+    position: relative;
+    z-index: 3;
+}
+
+.workshop .work {
+    float: left;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.workshop .work h3 {
+    color: #10108c;
+    font-size: 200%;
+    font-family: myFont;
+    line-height: 35px;
+}
+
+.workshop .work .work-bnt {
+    padding: 12px 40px;
+    color: #fff;
+    background-color: #10108c;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+
+/* ================================================================= */
+
+.committesPage .slider {
+    background-color: rgba(28, 241, 248, 0.068);
+    padding: 50px;
+}
+
+.committesPage .ui-card-slider .center-slide {
+    left: 30%;
+    width: 40%;
+    height: 212px;
+}
+
+.committesPage .ui-card-slider .right-slide {
+    left: 60%;
+    width: 40%;
+    height: 175px;
+}
+
+.committesPage .ui-card-slider .left-slide {
+    left: -30px;
+    width: 40%;
+    height: 175px;
+}
+
+.ui-card-slider {
+    margin: 0 auto;
+    width: 80%;
+}

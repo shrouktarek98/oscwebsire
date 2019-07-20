@@ -1,0 +1,350 @@
+/* *,
+html {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+} */
+
+.eventPage #welcomeDiv {
+    width: 100%;
+    height: 80%;
+}
+
+.eventPage .clearfix {
+    overflow: auto;
+}
+
+.eventPage body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.eventPage #welcomeImg {
+    width: 100%;
+    height: 850px;
+    position: relative;
+}
+
+.eventPage #welcomeTxt {
+    font-family: 'Raleway', sans-serif;
+    font-size: 63px;
+    color: white;
+    overflow: auto;
+    position: relative;
+}
+
+.eventPage .centered {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.eventPage #scroller {
+    top: 100%;
+    left: 45%;
+    width: 10%;
+    height: 20%;
+}
+
+.eventPage #eventScroller {
+    width: 100px;
+    color: white;
+    position: relative;
+}
+
+.eventPage .welcomeImg {
+    z-index: 9999;
+}
+
+.eventPage .im:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.eventPage .events_left {
+    width: 70%;
+    margin: 2%;
+    display: flex;
+}
+
+.eventPage .events_right {
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+}
+
+.eventPage #eventDescription {
+    height: fit-content;
+    padding: 20px;
+    display: block;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: end;
+}
+
+.eventPage .eventImgFloatLeft {
+    border: 2px solid #ff5722;
+    transform: rotate(-45deg);
+    width: 30%;
+    height: 25%;
+    text-align: start;
+    margin-right: 4%;
+    margin-bottom: 6%;
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.eventPage .eventImgFloatRight {
+    border: 2px solid #ff5722;
+    transform: rotate(-45deg);
+    width: 30%;
+    height: 25%;
+    margin-left: 4%;
+    margin-bottom: 6%;
+    margin-top: 6%;
+    margin-right: 6%;
+}
+
+.eventPage .right_img {
+    width: 45%;
+    float: right;
+}
+
+.eventPage .left_imag {
+    width: 45%;
+    float: left;
+}
+
+.eventPage .right_line {
+    overflow: hidden;
+    text-align: end;
+    margin-top: 2%;
+    float: left;
+    display: table-column;
+    color: #ff5722;
+}
+
+.left_line {
+    color: #ff5722;
+    overflow: hidden;
+    text-align: start;
+    margin-top: 2%;
+}
+
+.eventPage .right_line:before,
+.eventPage .left_line:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    position: inherit;
+    position: relative;
+    width: 35%;
+    border-top-style: solid;
+    border-top-width: 10%;
+}
+
+.eventPage .left_line:before {
+    margin-left: -50%;
+}
+
+.eventPage .right_line:after {
+    margin-right: -50%;
+}
+
+.events .h4 {
+    font-family: 'Raleway SemiBold', sans-serif;
+    font-size: 21px;
+    color: #383838;
+}
+
+.eventPage .events .p {
+    font-family: 'Raleway Regular', sans-serif;
+    font-size: 17px;
+    color: #383838;
+    word-break: break-all;
+}
+
+.eventPage .words_right {
+    width: 80%;
+    text-align: justify;
+    /* For Edge */
+    -moz-text-align-last: justify;
+    /* For Firefox prior 58.0 */
+    text-align-last: left;
+}
+
+.eventPage .words_left {
+    width: 80%;
+    text-align: justify;
+    /* For Edge */
+    -moz-text-align-last: justify;
+    /* For Firefox prior 58.0 */
+    text-align-last: left;
+}
+
+.eventPage .container {
+    width: auto;
+    height: fit-content;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+/* horizontal line */
+
+.eventPage .flourish {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 5%;
+    color: #ff5722;
+}
+
+.eventPage .flourish:before,
+.eventPage .flourish:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 50%;
+    border-top-style: solid;
+    border-top-width: 10%;
+}
+
+.eventPage .flourish:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.eventPage .flourish:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.eventPage .horizomtalImage {
+    vertical-align: middle;
+    width: 10%;
+    height: 25%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+/*********************** gallery*********************************/
+
+.eventPage .galleryImages {
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+    position: relative;
+}
+
+.eventPage .gal {
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+    column-count: 3;
+}
+
+.eventPage .gal img {
+    width: 100%;
+    padding: 7px 0;
+}
+
+@media (max-width: 500px) {
+    .eventPage .gal {
+        -webkit-column-count: 1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 1;
+        /* Firefox */
+        column-count: 1;
+    }
+}
+
+.eventPage .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    /*For mobile phones*/
+    .eventPage #welcomeTxt {
+        font-size: 25px;
+    }
+    .eventPage #eventScroller {
+        width: 50px;
+        height: 50px;
+        position: relative;
+    }
+    .eventPage p {
+        font-size: 15px;
+    }
+    .eventPage h4 {
+        font-size: 15px;
+    }
+    .eventPage .events_left {
+        width: 50%;
+        margin: 2%;
+        display: flex;
+    }
+    .eventPage .events_right {
+        width: 50%;
+        display: flex;
+        margin-left: auto;
+    }
+    eventPage .container {
+        width: 100%;
+        height: 100%;
+    }
+    .eventPage .events_left {
+        width: 70%;
+    }
+    .eventPage.events_right {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For tablet: */
+}
